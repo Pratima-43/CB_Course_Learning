@@ -1,0 +1,84 @@
+/* SELECTORS */
+/* BASIC AND ADVANCED (COMBINATORS,PSEUDO CLASSES, PSEUDO ELEMENTS) */
+
+/* ---------------------BASIC-------------------- */
+
+/* h1 {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article {
+    display: block;
+    background-color: rgb(132, 175, 222);
+}
+
+section {
+    display: block;
+    background-color: blueviolet;
+} */
+
+
+/* ------------------------ 1. ADVANCED--------------------- */
+
+/* child  (one level down)*/
+article>div {
+    background-color: aqua;
+}
+
+/* des(any level down one or more level down) */
+section article div {
+    background-color: rgb(6, 80, 80);
+}
+
+/* Adjacent Sibling (To select one)*/
+article+div {
+    background-color: rgb(80, 86, 86);
+}
+
+/* General Sibling (To select all adjacent elements of same parent) */
+article~div {
+    background-color: rgb(117, 174, 239);
+}
+
+/* ---------------------------- 2. PSEUDO CLASSES---------------------- */
+div {
+    background-color: rgb(120, 122, 224);
+}
+/* Hover */
+div:hover {
+    background-color: rgb(25, 12, 88);
+}
+
+/* Focus  */
+input:focus{
+    background-color: rgb(232, 210, 110);
+}
+
+/* Active */
+a:active{
+    background-color: rgb(28, 80, 140);
+}
+
+/* Visitied */
+a:visited{
+    color: rgb(34, 132, 27);
+}
+
+/* PSEUDO ELEMENTS */
+p::first-line{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: rgb(123, 101, 72);
+}
+p::before{
+    content: "start from here";
+}
+
+p::after{
+    content: "end here";
+}

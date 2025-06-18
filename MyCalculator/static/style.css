@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 600px;
+    margin: 40px auto;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgb(48, 47, 47);
+}
+h2{
+    background-color: rgb(237, 190, 131);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.input{
+    margin: 20px 0px;
+}
+
+#inp1,
+#inp2,
+#btn{
+    /* background-color: rgb(115, 182, 182); */
+    padding: 5px;
+}
+
+#btn{
+    background-color: rgb(115, 182, 182);
+    border: 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.calculator{
+    width:300px;
+    margin: auto;
+}

@@ -1,0 +1,1 @@
+console.log("Yayy Static Site Generator");

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    width: 100vw;
+    height: 10vh;
+    /* grid-template-columns: 200px 300px;     */
+    /* make a grid of two columns */
+
+    /* grid-template-rows: 100px 200px 150px; */
+    /* provide the size to starting 3 rows of grid and rest are auto */
+
+     /* grid-auto-flow:column; */
+     /* grid-auto-flow:row; */
+     /* grid-auto-olumns 50px; */
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* make a grid of 5 equal columns we can also write it like repeat(5, 1fr*/
+     grid-template-rows: 1fr 1fr;
+
+}
+/* by default the grid is row */
+
+#item-2{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    /* grid-column: 2/5;  */
+}
+
+.child{
+    background-color: aliceblue;
+    border: 1px solid black;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Day1</title>
+</head>
+<body>
+    <!-- unordered list  -->
+     <ul type="square">
+        <li> Red </li>
+        <li> Orange </li>
+        <li> Blue </li>
+     </ul>
+
+     <!-- ordered List  -->
+      <!-- reversed attribute is boolean if we mention reversed that means true if not then false -->
+      <ol type="A" start="C" reversed>
+        <li> Red </li>
+        <li> Orange </li>
+        <li> Blue </li>
+      </ol>
+
+      <!-- ANCHORE TAG -->
+
+       <a href="https://www.youtube.com/">YouTube</a>
+        <!-- TARGET (WANT THE LINK TO OPEN IN SAME TAB OR NEW TAB) -->
+         <a target="_blank" href="https://www.youtube.com/">YouTube</a>
+         <code>
+          <pre>
+            X<sup>2</sup> + Y<sup>4</sup>
+            C<sub>6</sub> H<sub>12</sub> O<sub>6</sub>
+          </pre>
+         </code>
+
+         <!-- INPUT -->
+          <input type="text" placeholder="Your Name">
+
+          <!-- SELECT  AND OPTION  -->
+           <select>
+            <option value="Jan"> Jan </option>
+            <option value="Feb"> Feb </option>
+            <option value="March"> March </option>
+            <option value="April"> April </option>
+            <option value="May"> May </option>
+            <option value="June"> June </option>
+            <option value="July"> July </option>
+            <option value="Aug"> Aug </option>
+            <option value="Step"> Step </option>
+            <option value="Octo"> Octo </option>
+            <option value="Nov"> Nov </option>
+            <option value="Dec"> Dec</option>
+           </select>
+
+           <!-- LEGEND AND FIELDSET -->
+            <!-- wrap the content in a box and legend gave the label to the box -->
+
+           <fieldset>
+            <legend> Personal Details</legend>
+            <label for="firstname">Enter Your FirstName</label>
+            <input type="text" id="firstname">
+
+            <label for="lastname"> Enter Your Lastname </label>
+            <input type="text" id="lastname">
+
+            <label for="email"> Enter Your Email</label>
+            <input type="email" id="email">
+
+            <label for="password"> Create a Strong password </label>
+            <input type="password" id="password">
+
+            <label for="dob"> Enter Your Date of Birth </label>
+            <input type="date" id="dob">
+
+           </fieldset>
+
+
+           <!-- FORM -->
+            <!-- # METHOD 
+            TECHNICHE WHICH IS USED TO SEND THE FORM DATA TO THE SERVER (SERVER)
+
+
+            # ACTION 
+            THE URL WHERE THE FORM DATA SHOULD BE SENT WHEN THE FORM IS SUMBITTED (URL TO SERVER)  -->
+
+
+            <!-- IN METHOD WE HAVE TWO OPTION GET OR POST IN WE USE GET AND IN INPUT WE USE NAME THEN ALL INFO WILL BE VISIBLE IN THE URL AND IN POST WE USE NAME AND VALUE THEN ALL INFO WILL BE HIDDEN IN THE URL  -->
+
+            <!-- <form method="get" action="#"> -->
+            <form method="post" action="#">
+
+            <label for="firstname">Enter Your FirstName</label>
+            <input type="text" id="firstname" name="firstname">
+            <br>
+
+            <label for="lastname"> Enter Your Lastname </label>
+            <input type="text" id="lastname" name="lastname">
+            <br>
+
+            <label for="email"> Enter Your Email</label>
+            <input type="email" id="email" name="email">
+            <br>
+
+            <label for="password"> Create a Strong password </label>
+            <input type="password" id="password" name="password">
+            <br>
+
+            <label for="dob"> Enter Your Date of Birth </label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            
+            <button> Click Me To Save Your Data</button>
+            </form>
+
+            <!-- INLINE    USE ONLY THE REQUIRED SPACE  -->
+             <!-- Eg. SPAN STRONG EN  -->
+              <span> Span Inline use only the required space  </span>
+
+            <!-- BLOCK    USE ENTIRE SPACE -->
+              <!-- Eg. DIV H1 H2 H3...H6 -->
+               <div> div use entire space a block </div>
+
+
+               <!-- ENTITIES OR ESCAPE CHARACTERS -->
+                <p>5 &gt; 3</p>
+                <p> 3 &lt; 5</p>
+                <p> 2 &equals; 2</p>
+                <p> heart &hearts; </p>
+                <p> copywrite &copy;</p>
+                <!-- nbsp is for empty space -->
+                <p> &nbsp; </p>
+                <p> and &amp;</p>
+
+            
+</body>
+</html>
