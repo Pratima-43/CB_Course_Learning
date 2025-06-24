@@ -8,7 +8,7 @@
 $('#inp').keypress(function(e){
     const todoText = $(this).val();
     if(e.which===13){
-    $('#list').append(`<li><span>X</span>${todoText}</li>`);
+    $('#list').append(`<li><span>✖️ </span>${todoText}</li>`);
     $(this).val("");
     }
 });
